@@ -9,10 +9,16 @@ class Anagram
   
   def match(possible_anagrams)
     
+    matches = []
+    
     possible_anagrams each do |words|
       
       array1 = @word.split(" ").sort 
       array2 = words.split(" ").sort
-      array1 == array2
+      
+      if array1 == array2
+        words
+      else 
+    end
   end
 end
