@@ -17,7 +17,7 @@ class Anagram
       array2 = words.split(" ").sort
       
       if array1 == array2
-        words
+        matches << words
       else 
     end
   end
