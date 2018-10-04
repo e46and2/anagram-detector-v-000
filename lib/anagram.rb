@@ -14,10 +14,10 @@ class Anagram
     matches = []
     
     possible_anagrams.each do |words|
-      binding.pry 
+      
       array1 = @word.split(" ").sort 
       array2 = words.split(" ").sort
-      
+       binding.pry
       if array1 == array2
         matches << words
         matches
