@@ -8,6 +8,6 @@ class Anagram
   end
   
   def match(possible_anagrams)
-    
+    array1 = @word.split(" ")
   end
 end
