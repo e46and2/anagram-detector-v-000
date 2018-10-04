@@ -11,7 +11,7 @@ class Anagram
     
     matches = []
     
-    possible_anagrams each do |words|
+    possible_anagrams.each do |words|
       
       array1 = @word.split(" ").sort 
       array2 = words.split(" ").sort
