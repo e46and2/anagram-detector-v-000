@@ -14,7 +14,7 @@ class Anagram
     matches = []
     
     possible_anagrams.each do |words|
-      
+      binding.pry 
       array1 = @word.split(" ").sort 
       array2 = words.split(" ").sort
       
@@ -23,7 +23,7 @@ class Anagram
         matches
       end
     end
-    binding.pry 
+    
     matches
   end
 end
