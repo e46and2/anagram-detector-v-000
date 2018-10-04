@@ -9,5 +9,6 @@ class Anagram
   
   def match(possible_anagrams)
     array1 = @word.split(" ")
+    array2 = possible_anagrams.split(" ")
   end
 end
