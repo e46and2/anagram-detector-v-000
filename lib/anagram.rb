@@ -18,6 +18,7 @@ class Anagram
       
       if array1 == array2
         matches << words
+      end
     end
     matches
   end
