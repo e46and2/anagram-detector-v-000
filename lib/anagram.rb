@@ -21,6 +21,7 @@ class Anagram
         matches
       end
     end
+    binding.pry 
     matches
   end
 end
